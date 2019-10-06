@@ -38,7 +38,8 @@ function getFactors(input)
             else
             {
                 factorsArray.push(i);
-                factorsArray.push(input.value/i);
+                if(input.value/i != input.vaue)
+                    factorsArray.push(input.value/i);
             }
         }
     }
